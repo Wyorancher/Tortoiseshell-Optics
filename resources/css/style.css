@@ -1,3 +1,65 @@
 @charset "utf-8";
 /* CSS Document */
+html,
+body {
+  font-family: Helvetica;
+  font-size: 18px;
+  line-height: 1.4;
+  margin: 0;
+  background-color: white;
+}
+h1  {
+  font-weight: bold;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+/*Container for top header including head-contianer, image, and nav*/
+.headline {
+  background-image: url(../images/glasses-bg.png);
+  background-size: cover;
+  height: 30rem; 
+}
+/*cadetblue container*/
+.head_container {
+  display: flex;
+  background-color: cadetblue;
+  color: white;
+  margin-top: 1rem;
+}
+/*Business logo and title*/
+.head_title {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  font-size: 1rem;
+}
+.head_title img {
+  height: 1.5rem;
+  padding: 0 1rem 0 2rem;
+}
+/*head navigation*/
+.flex_nav {
+  display: inline-flex;
+  align-items: center;
+  margin-left: auto;
+  list-style: none;
+}
+.flex_nav li {
+  padding-right: 2rem;
+}
+/*Head container for h1 box*/
+.head_box {
+  display: flex;
+  justify-content: flex-end;
+  
+  background-color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-top: 10rem;
+  padding: 1.5rem 5rem;
+  
+}
 
